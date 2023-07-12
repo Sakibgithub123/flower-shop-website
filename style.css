@@ -13,15 +13,44 @@ body {
 .header {
 
     background: rgba(229, 84, 115, 0.10);
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+    padding-top: 20px;
+}
+
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(229, 84, 115, 1);
+    font-weight: 400;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.banner{
     display: flex;
     padding: 0 100px 0 200px;
     align-items: center;
+
 }
 
 .banner-content {
-    margin-top: 200px;
+    padding-top: 200px;
     margin-right: 100px;
     width: 708px;
+    padding-bottom: 200px;
 
 }
 
@@ -190,8 +219,8 @@ body {
 
 
 /* latest-deals section------------------*/
-.latest-deals {
-    background-image: url('../images/rectangle9.png');
+.latest-deals{
+    background-image: url('images/rectangle9.png');
     height: 400px;
     margin: 40px 0;
     text-align: center;
@@ -296,12 +325,15 @@ textarea {
     padding: 100px 400px;
 }
 
-.footer .flower-heading-color {
+.flower-heading-color {
 
     color: rgba(229, 84, 115, 1);
 }
 
-.footer .shop-color {
+.shop-color-header {
+    color: rgb(229, 233, 14);
+}
+.shop-color {
     color: rgba(255, 255, 255, 1);
 }
 
